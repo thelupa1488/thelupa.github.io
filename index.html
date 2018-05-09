@@ -2,7 +2,34 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-     <title> THE LUPA </title> <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+
+<link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+
+<script type="text/javascript">      
+
+	var newTitle = " THE LUPA>< ";
+
+	function runTitle() {
+		 newTitle = newTitle.substring(1, newTitle.length) + newTitle.charAt(0);
+		 document.title = newTitle;
+		 setTimeout("runTitle()", 200);
+	}
+	
+	runTitle();
+	
+	$(document).keydown(function(event){
+		if ( event.keyCode == 123 ) {
+		  return false;
+		}
+		else if ( event.ctrlKey && event.shiftKey && event.keyCode == 73 ) {        
+		  return false;
+		}
+	});
+	
+	$(document).on("contextmenu",function(e){        
+		e.preventDefault();
+	});
+</script>
 <marquee style="color: rgb(0, 255, 0); font-size: 50px; font-family:Pompadur; line-height: 125%; text-shadow: #000000 0px 1px 1px;"> Welcome </marquee>
 <link href="css/highstl.css" rel="stylesheet">
 <link href="css/animate.css" rel="stylesheet">
@@ -41,7 +68,8 @@
 <div class="titles animated rubberBand" style="animation-delay: 8.5s;">
 <div class="animated zoomIn" style="animation-delay: 2s;">
 <div class="media animated pulse" style="animation-delay: 10s;">
-<h1 class="section-title"><shake class="shake"><font style="color: rgb(0, 255, 0);" span> THE LUPA </span></font></shake><div class="media animate">  
+<h1 class="section-title"><shake class="shake"><font style="color: rgb(0, 255, 0);" span> THE LUPA </span></font></shake><div class="media animate">
+</div>
 </div>
 <div class="titles animated rubberBand" style="animation-delay: 4s;">
 <div class="titles animated rubberBand" style="animation-delay: 5.5s;">
