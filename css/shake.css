@@ -794,7 +794,7 @@
     transform: translate(0, 0) rotate(7.5deg); }
   0%, 100% {
     transform: translate(0, 0) rotate(0); } }
-s
+
 .shake-rotate:hover,
 .shake-trigger:hover .shake-rotate, .shake-rotate.shake-freeze, .shake-rotate.shake-constant {
   animation-name: shake-rotate;
