@@ -148,7 +148,8 @@
   8% {
     transform: translate(3px, 3px) rotate(0.5deg); }
   10% {
-    transform: translate(3px, 0px) rotate(0.5deg); }
+    transform: translate(3px, 0px) rotate(0.5deg); 
+    opacity: 0.01; }
   12% {
     transform: translate(0px, 3px) rotate(0.5deg); }
   14% {
@@ -156,7 +157,8 @@
   16% {
     transform: translate(3px, 3px) rotate(0.5deg); }
   18% {
-    transform: translate(0px, 0px) rotate(0.5deg); }
+    transform: translate(0px, 0px) rotate(0.5deg);
+    opacity: 0.01; }
   20% {
     transform: translate(3px, 0px) rotate(0.5deg); }
   22% {
@@ -168,7 +170,8 @@
   28% {
     transform: translate(0px, 0px) rotate(0.5deg); }
   30% {
-    transform: translate(3px, 3px) rotate(0.5deg); }
+    transform: translate(3px, 3px) rotate(0.5deg);
+    opacity: 0.01; }
   32% {
     transform: translate(3px, 0px) rotate(0.5deg); }
   34% {
@@ -178,7 +181,8 @@
   38% {
     transform: translate(3px, 3px) rotate(0.5deg); }
   40% {
-    transform: translate(3px, 3px) rotate(0.5deg); }
+    transform: translate(3px, 3px) rotate(0.5deg);
+    opacity: 0.01; }
   42% {
     transform: translate(3px, 3px) rotate(0.5deg); }
   44% {
@@ -188,7 +192,8 @@
   48% {
     transform: translate(3px, 3px) rotate(0.5deg); }
   50% {
-    transform: translate(3px, 0px) rotate(0.5deg); }
+    transform: translate(3px, 0px) rotate(0.5deg);
+    opacity: 0.01; }
   52% {
     transform: translate(0px, 0px) rotate(0.5deg); }
   54% {
@@ -198,7 +203,8 @@
   58% {
     transform: translate(3px, 3px) rotate(0.5deg); }
   60% {
-    transform: translate(3px, 3px) rotate(0.5deg); }
+    transform: translate(3px, 3px) rotate(0.5deg); 
+    opacity: 0.01; }
   62% {
     transform: translate(3px, 3px) rotate(0.5deg); }
   64% {
@@ -208,7 +214,8 @@
   68% {
     transform: translate(3px, 3px) rotate(0.5deg); }
   70% {
-    transform: translate(3px, 0px) rotate(0.5deg); }
+    transform: translate(3px, 0px) rotate(0.5deg); 
+    opacity: 0.01; }
   72% {
     transform: translate(3px, 0px) rotate(0.5deg); }
   74% {
@@ -218,7 +225,8 @@
   78% {
     transform: translate(0px, 0px) rotate(0.5deg); }
   80% {
-    transform: translate(0px, 0px) rotate(0.5deg); }
+    transform: translate(0px, 0px) rotate(0.5deg);
+    opacity: 0.01; }
   82% {
     transform: translate(0px, 0px) rotate(0.5deg); }
   84% {
@@ -228,7 +236,8 @@
   88% {
     transform: translate(3px, 3px) rotate(0.5deg); }
   90% {
-    transform: translate(3px, 3px) rotate(0.5deg); }
+    transform: translate(3px, 3px) rotate(0.5deg);
+    opacity: 0.01; }
   92% {
     transform: translate(3px, 0px) rotate(0.5deg); }
   94% {
@@ -238,7 +247,8 @@
   98% {
     transform: translate(3px, 3px) rotate(0.5deg); }
   0%, 100% {
-    transform: translate(0, 0) rotate(0); } }
+    transform: translate(0, 0) rotate(0); 
+    opacity: 0.01; } }
 
 .shake-little:hover,
 .shake-trigger:hover .shake-little, .shake-little.shake-freeze, .shake-little.shake-constant {
@@ -784,7 +794,7 @@
     transform: translate(0, 0) rotate(7.5deg); }
   0%, 100% {
     transform: translate(0, 0) rotate(0); } }
-
+s
 .shake-rotate:hover,
 .shake-trigger:hover .shake-rotate, .shake-rotate.shake-freeze, .shake-rotate.shake-constant {
   animation-name: shake-rotate;
