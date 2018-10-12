@@ -21,7 +21,7 @@ $(function() {
     window.setInterval(doInverseSpinZeroPitch, 400);
     /*-------------------------------------------------------------------------------------------------------------------------------------------------- */
     var tKillNames = ["THELUPA"];
-    var ctKillNames = ["Ben Swolo", "Merry Legs", "00dat", "Lansage", "Micqua", "Look at me!!!", "Makoreliina"];
+    var ctKillNames = ["Ben Swolo", "Merry Legs", "00dat", "UR MUM", "Micqua", "フィニス", "Makoreliina"];
     var weapons = ["ssg"];
     var $killFeedContainer = $('.kill-feed');
     var $killFeedElement = $('.kill-feed > div').hide();
