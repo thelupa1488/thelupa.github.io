@@ -32,9 +32,9 @@ body{background:#000000 no-repeat center bottom;color:#FFFFFF;font:normal 16px/1
 .media>a{margin-right:80px;text-decoration:none;transition:color 0.5s ease;}
 .media>a#vk{font-size:35px;}
 .media>a:last-child{margin-right:0;}
-.button {font-size: 70px;text-align: center;font-family: 'Bazy', sans-serif;line-height: 78px;color: #fff;margin: auto;margin-top: 100px;width: 350px;height: 85px;background: linear-gradient(#ff009d, #591183);border: 3px #a200ff solid;border-radius: 5px;text-shadow: 0 0 20px rgba(255,255,255,0.3);transition: .1s;transform: scale(1);-webkit-user-select: none;box-shadow: 0 0 50px rgba(0, 0, 0, 0.568);overflow: hidden;}
+.button {font-size: 70px;text-align: center;font-family: 'Bazy', sans-serif;line-height: 78px;color: #fff;margin: auto;margin-top: 100px;width: 350px;height: 85px;background: linear-gradient(#ff009d, #49005c);border: 3px #a200ff solid;border-radius: 5px;text-shadow: 0 0 20px rgba(255,255,255,0.3);transition: .1s;transform: scale(1);-webkit-user-select: none;box-shadow: 0 0 50px rgba(234, 0, 255, 0.568);overflow: hidden;}
 .button:hover {text-shadow: 0 0 20px rgba(255,255,255,0.5);transform: scale(1.05);cursor:url(../images/cursor/cursor2.cur),pointer;} 
-.button:active {background: linear-gradient(#ff009d, #49005c);text-shadow: 0 0 20px rgba(255,255,255,0.5);transform: scale(1);box-shadow: 0 0 75px rgba(128, 0, 0, 0.5);}
+.button:active {background: linear-gradient(#ff009d, #591183);text-shadow: 0 0 20px rgba(255,255,255,0.5);transform: scale(1);box-shadow: 0 0 75px rgba(234, 0, 255, 0.5);}
 .button:after {content: "";position: relative;top: -120px;left: -90px;display: block;width: 35px;height: 150px;background: rgba(255, 255, 255, 0.5);transform: rotate(35deg);-webkit-filter: blur(20px);transition: none;}
 .button:hover:after {left: 400px;transition: .3s ease-in-out;}
 .hvr-grow {display: inline-block;vertical-align: middle;-webkit-transform: perspective(1px) translateZ(0);transform: perspective(1px) translateZ(0);box-shadow: 0 0 1px transparent;-webkit-transition-duration: 0.3s;transition-duration: 0.3s;-webkit-transition-property: transform;transition-property: transform;}
