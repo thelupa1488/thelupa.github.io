@@ -21,7 +21,7 @@ $(function() {
     window.setInterval(doInverseSpinZeroPitch, 400);
     /*-------------------------------------------------------------------------------------------------------------------------------------------------- */
     var tKillNames = ["THELUPA"];
-    var ctKillNames = ["Ben Swolo", "Merry Legs", "00dat", "UR MUM", "Micqua", "フィニス", "Makoreliina"];
+    var ctKillNames = ["Ben Swolo", "Merry Legs", "00dat", "Ur mum", "Micqua", "フィニス", "Makoreliina", "Xani", "Chuchma"];
     var weapons = ["ssg"];
     var $killFeedContainer = $('.kill-feed');
     var $killFeedElement = $('.kill-feed > div').hide();
@@ -35,7 +35,7 @@ $(function() {
             $(this).remove()
         }))
     }
-    window.setInterval(handleKillFeed, 400)
+    window.setInterval(handleKillFeed, 150)
 	document.onkeydown = function(e) { 
 	if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) {//Alt+c, Alt+v will also be disabled sadly. 
 	} 
