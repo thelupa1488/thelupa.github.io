@@ -31,11 +31,11 @@ $(function() {
         $newFeedElement.find('.weapons img:first-child').attr('src', 'images/' + weapons[Math.floor(Math.random() * weapons.length)] + '.png');
         $newFeedElement.find('.t').text(tKillNames[Math.floor(Math.random() * tKillNames.length)]);
         $newFeedElement.find('.ct').text(ctKillNames[Math.floor(Math.random() * ctKillNames.length)]);
-        $killFeedContainer.append($newFeedElement.show().delay(1000).fadeOut(1000, function() {
+        $killFeedContainer.append($newFeedElement.show().delay(2000).fadeOut(2000, function() {
             $(this).remove()
         }))
     }
-    window.setInterval(handleKillFeed, 150)
+    window.setInterval(handleKillFeed, 300)
 	document.onkeydown = function(e) { 
 	if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) {//Alt+c, Alt+v will also be disabled sadly. 
 	} 
