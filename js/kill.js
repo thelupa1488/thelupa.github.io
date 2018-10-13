@@ -53,7 +53,7 @@
           window.setInterval(doInverseSpinZeroPitch, 500);
     /*-------------------------------------------------------------------------------------------------------------------------------------------------- */
     var tKillNames = ["THELUPA"];
-    var ctKillNames = ["Ben Swolo", "Merry Legs", "00dat", "Ur mum", "Micqua", "フィニス", "Makoreliina", "Xani", "Chuchma"];
+    var ctKillNames = ["Ben Swolo", "Merry Legs", "00dat", "Ur mum", "Micqua", "フィニス", "Makoreliina", "Xani", "Chuchma", "You"];
     var weapons = ["ssg"];
     var $killFeedContainer = $('.kill-feed');
     var $killFeedElement = $('.kill-feed > div').hide();
