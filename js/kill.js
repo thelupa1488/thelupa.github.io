@@ -1,4 +1,4 @@
-$(function() {
+/*$(function() {
     var title = document.title,
         animSeq = ["_", "/", "$", "-", "_"],
         animIndex = 0,
@@ -18,7 +18,28 @@ $(function() {
         document.title = loadTitle + animSeq[animIndex];
         animIndex++
     }
-    window.setInterval(doInverseSpinZeroPitch, 400);
+    window.setInterval(doInverseSpinZeroPitch, 400);*/
+    
+    $(function() {
+        var title = document.title,
+            animSeq = ["<>", "< >", "< TA >", "< THPA >", "< THELPA >", "< THELUPA >", "< THELUPA >", "< THELUPA >", " THELUPA ", "THELUPA", "HELUP", "ELU", "L", "☺"],
+            animIndex = 0,
+            titleIndex = 0;
+    
+        function doInverseSpinZeroPitch() {
+            var loadTitle = title.substring(0, titleIndex);
+            if (titleIndex > title.length) {
+                animIndex = 0;
+                titleIndex = 0
+            }
+            if (animIndex > 13) {
+                titleIndex++;
+                animIndex = 0
+            }
+            document.title = animSeq[animIndex];
+            animIndex++
+        }
+          window.setInterval(doInverseSpinZeroPitch, 500);
     /*-------------------------------------------------------------------------------------------------------------------------------------------------- */
     var tKillNames = ["THELUPA"];
     var ctKillNames = ["Ben Swolo", "Merry Legs", "00dat", "Ur mum", "Micqua", "フィニス", "Makoreliina", "Xani", "Chuchma"];
