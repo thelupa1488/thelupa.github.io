@@ -22,7 +22,18 @@
     
     $(function() {
         var title = document.title,
-            animSeq = ["<>", "< >", "< TA >", "< THPA >", "< THELPA >", "< THELUPA >", "< THELUPA >", "< THELUPA >", " THELUPA ", "THELUPA", "HELUP", "ELU", "L", "☺"],
+            animSeq = 
+            ["<>", "< >", "< / >", "< - >", "< _ >", "< $ >", "< T >",
+            "< T/ >", "< T- >", "< T_ >", "< T$ >", "< TH >", "< TH/ >", "< TH- >",
+            "< TH_ >", "< TH$ >", "< THE >", "< THE/ >", "< THE- >", "< THE_ >", "< THE$ >",
+            "< THEL >", "< THEL/ >", "< THEL- >", "< THEL_ >", "< THEL$ >", "< THELU >", "< THELU/ >",
+            "< THELU- >", "< THELU_ >", "< THELU$ >", "< THELUP >", "< THELUP/ >", "< THELUP- >", "< THELUP_ >",
+            "< THELUP$ >", "< THELUPA >", "< THELUPA >", "< THELUPA >", "< THELUP$ >", "< THELUP_ >", "< THELUP- >",
+            "< THELUP/ >", "< THELUP >", "< THELU$ >", "< THELU_ >", "< THELU- >", "< THELU/ >", "< THELU >",
+            "< THEL$ >", "< THEL_ >", "< THEL- >", "< THEL/ >", "< THEL >", "< THE$ >", "< THE_ >",
+            "< THE- >", "< THE/ >", "< THE >", "< TH$ >", "< TH_ >", "< TH- >", "< TH/ >",
+            "< TH >", "< T$ >", "< T_ >", "< T- >", "< T/ >", "< T >", "< $ >",
+            "< _ >", "< - >", "< / >", "☺"],
             animIndex = 0,
             titleIndex = 0;
     
@@ -32,7 +43,7 @@
                 animIndex = 0;
                 titleIndex = 0
             }
-            if (animIndex > 13) {
+            if (animIndex > 73) {
                 titleIndex++;
                 animIndex = 0
             }
