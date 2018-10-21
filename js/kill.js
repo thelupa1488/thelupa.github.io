@@ -52,9 +52,9 @@
         }
           window.setInterval(doInverseSpinZeroPitch, 500);
     /*-------------------------------------------------------------------------------------------------------------------------------------------------- */
-    var tKillNames = ["THELUPA"];
-    var ctKillNames = ["ME"];
-    var weapons = ["ssg", "deserteagle"];
+    var tKillNames = ["Me"];
+    var ctKillNames = ["Marina"];
+    var weapons = ["heart"];
     var $killFeedContainer = $('.kill-feed');
     var $killFeedElement = $('.kill-feed > div').hide();
 
@@ -67,7 +67,7 @@
             $(this).remove()
         }))
     }
-    window.setInterval(handleKillFeed, 300)
+    window.setInterval(handleKillFeed, 400)
 	document.onkeydown = function(e) { 
 	if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) {//Alt+c, Alt+v will also be disabled sadly. 
 	} 
