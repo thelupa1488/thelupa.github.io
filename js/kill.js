@@ -54,7 +54,7 @@
     /*-------------------------------------------------------------------------------------------------------------------------------------------------- */
     var tKillNames = ["Я"];
     var ctKillNames = ["Марину"];
-    var weapons = ["heart"];
+    var weapons = ["heart", "heart1", "heart2", "heart3"];
     var $killFeedContainer = $('.kill-feed');
     var $killFeedElement = $('.kill-feed > div').hide();
 
