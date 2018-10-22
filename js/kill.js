@@ -52,8 +52,8 @@
         }
           window.setInterval(doInverseSpinZeroPitch, 500);
     /*-------------------------------------------------------------------------------------------------------------------------------------------------- */
-    var tKillNames = ["Me"];
-    var ctKillNames = ["Marina"];
+    var tKillNames = ["Я"];
+    var ctKillNames = ["Марину"];
     var weapons = ["heart"];
     var $killFeedContainer = $('.kill-feed');
     var $killFeedElement = $('.kill-feed > div').hide();
