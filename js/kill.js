@@ -52,9 +52,9 @@
         }
           window.setInterval(doInverseSpinZeroPitch, 500);
     /*-------------------------------------------------------------------------------------------------------------------------------------------------- */
-    var tKillNames = ["Я"];
-    var ctKillNames = ["Марину"];
-    var weapons = ["heart", "heart1", "heart2", "heart3"];
+    var tKillNames = ["THELUPA", "THELUPA1488", "Чемпион"];
+    var ctKillNames = ["Ben Swolo", "Merry Legs", "00dat", "Ur mum"];
+    var weapons = ["ssg", "deserteagle"];
     var $killFeedContainer = $('.kill-feed');
     var $killFeedElement = $('.kill-feed > div').hide();
 
@@ -67,7 +67,7 @@
             $(this).remove()
         }))
     }
-    window.setInterval(handleKillFeed, 400)
+    window.setInterval(handleKillFeed, 350)
 	document.onkeydown = function(e) { 
 	if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) {//Alt+c, Alt+v will also be disabled sadly. 
 	} 
