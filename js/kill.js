@@ -52,8 +52,8 @@
         }
           window.setInterval(doInverseSpinZeroPitch, 500);
     /*-------------------------------------------------------------------------------------------------------------------------------------------------- */
-    var tKillNames = ["THELUPA", "THELUPA1488", "Чемпион"];
-    var ctKillNames = ["Ben Swolo", "Merry Legs", "00dat", "Ur mum"];
+    var tKillNames = ["THELUPA", "THELUPA1488", "CHAMPION"];
+    var ctKillNames = ["Ben Swolo", "Merry Legs", "00dat", "Ur mum", "Lansage", "Kokkir", "Ge.rig", "Micqua", "Me"];
     var weapons = ["ssg", "deserteagle"];
     var $killFeedContainer = $('.kill-feed');
     var $killFeedElement = $('.kill-feed > div').hide();
