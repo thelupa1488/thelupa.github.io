@@ -2,7 +2,7 @@ html{height:100%;width:100%;}
 body{background:#000000;}
 video{position:fixed;top:50%;left:50%;min-width:100%;min-height:100%;width:auto;height:auto;z-index:-9999;transform:translateX(-50%) translateY(-50%);background-size:cover;transition:1s opacity;}
 .kill-feed {position:absolute;top:20px;right:20px;}
-.kill-feed>div {padding:3px 6px 3px 6px;margin:0;display:inline-block;float:right;clear:both;border:2px #c300ff solid;line-height:18px;font-size:15px;font-weight:normal;text-decoration:none;text-align:right;border-radius:4px;background:rgba(0,0,0,0.75);margin-bottom:6px;}
+.kill-feed>div {padding:3px 6px 3px 6px;margin:0;display:inline-block;float:right;clear:both;border:2px #c300ff solid;line-height:18px;font-size:15px;font-weight:normal;text-decoration:none;text-align:right;border-radius:4px;background:rgba(0, 0, 0, 0.500);margin-bottom:6px;}
 .kill-feed div span {vertical-align:middle;}
 .kill-feed div span.weapons>img {border:none;outline:none;vertical-align:middle;margin:0px 3px;}
 .kill-feed div>span.player {font-family:'Bazy';font-size:16px;font-weight:bold;margin:0 2px;}
