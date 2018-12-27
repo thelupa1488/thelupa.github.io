@@ -23,7 +23,7 @@
     $(function() {
         var title = document.title,
             animSeq = 
-            ["<>", "< >", "< / >", "< - >", "< _ >", "< $ >", "< T >",
+            ["< >", "< / >", "< - >", "< _ >", "< $ >", "< T >",
             "< T/ >", "< T- >", "< T_ >", "< T$ >", "< TH >", "< TH/ >", "< TH- >",
             "< TH_ >", "< TH$ >", "< THE >", "< THE/ >", "< THE- >", "< THE_ >", "< THE$ >",
             "< THEL >", "< THEL/ >", "< THEL- >", "< THEL_ >", "< THEL$ >", "< THELU >", "< THELU/ >",
@@ -43,14 +43,14 @@
                 animIndex = 0;
                 titleIndex = 0
             }
-            if (animIndex > 73) {
+            if (animIndex > 72) {
                 titleIndex++;
                 animIndex = 0
             }
             document.title = animSeq[animIndex];
             animIndex++
         }
-          window.setInterval(doInverseSpinZeroPitch, 500);
+          window.setInterval(doInverseSpinZeroPitch, 1000);
     /*-------------------------------------------------------------------------------------------------------------------------------------------------- */
     var tKillNames = ["THELUPA", "THELUPA1488", "CHAMPION"];
     var ctKillNames = ["Ben Swolo", "Merry Legs", "00dat", "Ur mum", "Lansage", "Kokkir", "Ge.rig", "Micqua", "Me"];
