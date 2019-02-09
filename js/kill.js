@@ -50,7 +50,7 @@
             document.title = animSeq[animIndex];
             animIndex++
         }
-          window.setInterval(doInverseSpinZeroPitch, 1000);
+          window.setInterval(doInverseSpinZeroPitch, 500);
     /*-------------------------------------------------------------------------------------------------------------------------------------------------- */
     var tKillNames = ["THELUPA", "THELUPA1488", "CHAMPION"];
     var ctKillNames = ["Ben Swolo", "Merry Legs", "00dat", "Ur mum", "Lansage", "Kokkir", "Ge.rig", "Micqua", "Me"];
