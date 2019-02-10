@@ -54,7 +54,7 @@
     /*-------------------------------------------------------------------------------------------------------------------------------------------------- */
     var tKillNames = ["THELUPA", "THELUPA1488"];
     var ctKillNames = ["Ben Swolo 1337", "Samsonome", "YuRka", "Adya", "TANYUHA", "ҜåẑẏҝᎥ", "KoTuK", "Fittnes_Trainer", "THELUPA1448","THELUPA"];
-    var weapons = ["ssg", "deserteagle"];
+    var weapons = ["ssg", "deserteagle", "ak47"];
     var $killFeedContainer = $('.kill-feed');
     var $killFeedElement = $('.kill-feed > div').hide();
 
