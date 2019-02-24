@@ -53,7 +53,7 @@
           window.setInterval(doInverseSpinZeroPitch, 500);
     /*-------------------------------------------------------------------------------------------------------------------------------------------------- */
     var tKillNames = ["THELUPA", "Vanal1488", "Лава Яша", "THELUPA1488", "Упа Зал 1488"];
-    var ctKillNames = ["Magic3000", "Pkshnik", "Harbor", "AFK.Death404", "MasayukiJE", "Vaizehail", "Моро", "Artem Udovich"];
+    var ctKillNames = ["♡ℳ𝓪𝓰𝓲𝓬③⓪⓪⓪♡", "𝓟𝓚𝓼𝓱𝓷𝓲𝓴", "ℋ𝓪𝓻𝓫𝓸𝓻", "AFK.Death404 💗", "ℳ𝓪𝓼𝓪𝔂𝓾𝓴𝓲𝓙𝓔", "♡𝓥𝓪𝓲𝔃𝒆𝓱𝓪𝓲𝓵♡", "Моро", "𝓐𝓻𝓽𝒆𝓶 𝓤𝓭𝓸𝓿𝓲𝓬𝓱", "1ks<3", "☣₦Ĭ₲Ħテ♏₳尺∑☣", "Doppelgänger"];
     var weapons = ["ssg", "deserteagle", "ak47"];
     var $killFeedContainer = $('.kill-feed');
     var $killFeedElement = $('.kill-feed > div').hide();
