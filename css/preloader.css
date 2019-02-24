@@ -7,7 +7,7 @@
 #loader-wrapper .loader-section{position:fixed;top:0;width:50%;height:100%;z-index:1000;-webkit-transform:translateX(0);-ms-transform:translateX(0);transform:translateX(0)}
 #loader-wrapper .loader-section.section-left{background:url(../images/Mirai_Nikki1.png);background-size:100%;background-color:#222;background-repeat:round;left:0}
 #loader-wrapper .loader-section.section-right{background:url(../images/Mirai_Nikki2.png);background-size:100%;background-color:#222;background-repeat:round;right:0}.loaded 
-#loader-wrapper .loader-section.section-left{-webkit-transform:translateX(-100%);-ms-transform:translateX(-100%);transform:translateX(-100%);-webkit-transition:all .7s .3s cubic-bezier(0.645,0.045,0.355,1.000);transition:all .7s .3s cubic-bezier(0.645,0.045,0.355,1.000)}.loaded 
-#loader-wrapper .loader-section.section-right{-webkit-transform:translateX(100%);-ms-transform:translateX(100%);transform:translateX(100%);-webkit-transition:all .7s .3s cubic-bezier(0.645,0.045,0.355,1.000);transition:all .7s .3s cubic-bezier(0.645,0.045,0.355,1.000)}.loaded 
+#loader-wrapper .loader-section.section-left{-webkit-transform:translateX(-100%);-ms-transform:translateX(-100%);transform:translateX(-100%);-webkit-transition:all .5s .3s cubic-bezier(0.645,0.045,0.355,1.000);transition:all .5s .3s cubic-bezier(0.645,0.045,0.355,1.000)}.loaded 
+#loader-wrapper .loader-section.section-right{-webkit-transform:translateX(100%);-ms-transform:translateX(100%);transform:translateX(100%);-webkit-transition:all .5s .3s cubic-bezier(0.645,0.045,0.355,1.000);transition:all .5s .3s cubic-bezier(0.645,0.045,0.355,1.000)}.loaded 
 #loader{opacity:0;-webkit-transition:all .3s ease-out;transition:all .3s ease-out}.loaded 
 #loader-wrapper{visibility:hidden;-webkit-transform:translateY(-100%);-ms-transform:translateY(-100%);transform:translateY(-100%);-webkit-transition:all .3s 1s ease-out;transition:all .3s 1s ease-out}
