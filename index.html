@@ -33,11 +33,15 @@ body, a, a:link{cursor:url(images/cursor/cursor.cur), default;} a:hover {cursor:
 <script>disableWheelScroll();</script>
 <div id="star" class="video mask overlay">
 <div class="video-fallback"></div>
-<video muted autoplay autoplay="autoplay" id="video" width="100%" height="auto" autoplay="autoplay" loop="false">
-<source autoplay="autoplay" loop="false" src="videos/Ricardo.mp4"></source>
+<iframe id="audio" src="audio/Ricardo.mp3" allow="autoplay" style="display:none"></iframe>
+<video id="video" playsinline autoplay loop>
+  <source src="videos/Ricardo.mp4" type="video/mp4"></source>
+  <script>
+    var video = document.currentScript.parentElement;
+    video.volume = 0.1;
+  </script>
 </video>
-<embed id="audio" src="audio/Ricardo.mp3" autostart="true" hidden="true" loop="false">
-</embed>
+<script>setTimeout(function(){document.getElementById("video","audio").play();}, 3000);</script>
 <canvas class="cover"></canvas>
 </div>
 <div class="kill-feed"><div><span class="player t"></span><span class="weapons"><img height="20"/><img width="30" height="26" src="images/headshot.png"/></span><span class="player ct"></span></div></div>
