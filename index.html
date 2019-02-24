@@ -23,6 +23,14 @@ body, a, a:link{cursor:url(images/cursor/cursor.cur), default;} a:hover {cursor:
 <div class="loader-section section-left"></div>
 <div class="loader-section section-right"></div> 
 </div>
+<iframe id="audio" src="silence.mp3" allow="autoplay" style="display:none"></iframe>
+<video id="video" playsinline autoplay loop>
+  <source src="videos/Ricardo.mp4" type="video/mp4"></source>
+  <script>
+    var video = document.currentScript.parentElement;
+    video.volume = 0.1;
+  </script>
+</video>
 </head>
 <header>
 <p class = "name-rap"> <span class="typed"></span></p>
@@ -33,14 +41,6 @@ body, a, a:link{cursor:url(images/cursor/cursor.cur), default;} a:hover {cursor:
 <script>disableWheelScroll();</script>
 <div id="star" class="video mask overlay">
 <div class="video-fallback"></div>
-<iframe id="audio" src="audio/Ricardo.mp3" allow="autoplay" style="display:none"></iframe>
-<video id="video" playsinline autoplay loop>
-  <source src="videos/Ricardo.mp4" type="video/mp4"></source>
-  <script>
-    var video = document.currentScript.parentElement;
-    video.volume = 0.3;
-  </script>
-</video>
 <canvas class="cover"></canvas>
 </div>
 <div class="kill-feed"><div><span class="player t"></span><span class="weapons"><img height="20"/><img width="30" height="26" src="images/headshot.png"/></span><span class="player ct"></span></div></div>
