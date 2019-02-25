@@ -66,6 +66,7 @@
         $killFeedContainer.append($newFeedElement.show().delay(1500).fadeOut(1500, function() {
             $(this).remove()
         }))
+
     }
     window.setInterval(handleKillFeed, 350)
 	document.onkeydown = function(e) { 
