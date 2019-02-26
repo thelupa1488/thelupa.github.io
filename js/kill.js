@@ -28,12 +28,12 @@
             "< TH_ >", "< TH$ >", "< THE >", "< THE/ >", "< THE- >", "< THE_ >", "< THE$ >",
             "< THEL >", "< THEL/ >", "< THEL- >", "< THEL_ >", "< THEL$ >", "< THELU >", "< THELU/ >",
             "< THELU- >", "< THELU_ >", "< THELU$ >", "< THELUP >", "< THELUP/ >", "< THELUP- >", "< THELUP_ >",
-            "< THELUP$ >", "< THELUPA >", "< THELUPA >", "< THELUPA >", "< THELUP$ >", "< THELUP_ >", "< THELUP- >",
+            "< THELUP$ >", "< THELUPA >", "< THELUPA >", "< THELUPA >", "< THELUPA >", "< THELUP$ >", "< THELUP_ >", "< THELUP- >",
             "< THELUP/ >", "< THELUP >", "< THELU$ >", "< THELU_ >", "< THELU- >", "< THELU/ >", "< THELU >",
             "< THEL$ >", "< THEL_ >", "< THEL- >", "< THEL/ >", "< THEL >", "< THE$ >", "< THE_ >",
             "< THE- >", "< THE/ >", "< THE >", "< TH$ >", "< TH_ >", "< TH- >", "< TH/ >",
             "< TH >", "< T$ >", "< T_ >", "< T- >", "< T/ >", "< T >", "< $ >",
-            "< _ >", "< - >", "< / >", "< ☺ >"],
+            "< _ >", "< - >", "< / >"],
             animIndex = 0,
             titleIndex = 0;
     
@@ -50,7 +50,7 @@
             document.title = animSeq[animIndex];
             animIndex++
         }
-          window.setInterval(doInverseSpinZeroPitch, 500);
+          window.setInterval(doInverseSpinZeroPitch, 200);
     /*-------------------------------------------------------------------------------------------------------------------------------------------------- */
     var tKillNames = ["THELUPA", "Vanal1488", "Лава Яша", "THELUPA1488", "Упа Зал 1488", "Ben Swolo 1337", "Fitness_Trainer", "Sanraiz", "[FBI] Megafon"];
     var ctKillNames = ["♡ℳ𝓪𝓰𝓲𝓬③⓪⓪⓪♡", "𝓟𝓚𝓼𝓱𝓷𝓲𝓴", "ℋ𝓪𝓻𝓫𝓸𝓻", "AFK.Death404 💗", "ℳ𝓪𝓼𝓪𝔂𝓾𝓴𝓲𝓙𝓔", "♡𝓥𝓪𝓲𝔃𝒆𝓱𝓪𝓲𝓵♡", "Моро", "𝓐𝓻𝓽𝒆𝓶 𝓤𝓭𝓸𝓿𝓲𝓬𝓱", "1ks<3", "☣₦Ĭ₲Ħテ♏₳尺∑☣", "Doppelgänger"];
