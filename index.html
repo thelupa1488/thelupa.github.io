@@ -23,11 +23,14 @@ body, a, a:link{cursor:url(images/cursor/cursor.cur), default;} a:hover {cursor:
 <div class="loader-section section-left"></div>
 <div class="loader-section section-right"></div> 
 </div>
-<iframe id="audio" src="silence.mp3" allow="autoplay" style="display:none"></iframe> 
-<video id="video" onloadstart="this.volume=0.3" loop>
-  <source src="videos/THELUPA.mp4" type="video/mp4"></source>
+<video id="video" muted loop>
+  <source src="videos/Kizaru.mp4" type="video/mp4"></source>
 </video>
+<audio id="audio" onloadstart="this.volume=0.3" hidden="true" loop>
+  <source src="audio/Kizaru.mp3" type="audio/mp3"></source>
+</audio>
 <script>setTimeout(function(){document.getElementById("video").play();}, 3000);</script>
+<script>setTimeout(function(){document.getElementById("audio").play();}, 3000);</script>
 </head>
 <header>
 <p class = "name-rap"> <span class="typed"></span></p>
