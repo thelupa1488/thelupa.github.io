@@ -13,6 +13,7 @@
 <script src="js/plugins.min.js"></script>
 <script src="js/main.js"></script>
 <script src="js/kill.js"></script>
+<script src="js/audio.js"></script>
 <style>
 @font-face{font-family:Pompadur;src:url(fonts/font.eot);src:local(pompadur),url(fonts/font.ttf);}h1{font-family:Pompadur,'Comic Sans MS',cursive;}
 @font-face{font-family:Pompadur;src:url(fonts/hack.eot);src:local(pompadur),url(fonts/hack.ttf);}Hack{font-family:Pompadur,'Comic Sans MS',cursive;}
@@ -23,14 +24,18 @@ body, a, a:link{cursor:url(images/cursor/cursor.cur), default;} a:hover {cursor:
 <div class="loader-section section-left"></div>
 <div class="loader-section section-right"></div> 
 </div>
+<div class="overlay">
+  <div class="center">
+      press anywhere to enter
+  </div>
+</div>
 <video id="video" muted="true" loop>
   <source src="videos/Kizaru.mp4" type="video/mp4"></source>
 </video>
-<audio id="audio" onloadstart="this.volume=0.3" hidden="true" loop>
-  <source src="audio/Kizaru.mp3" type="audio/mp3"></source>
+<audio id="audio" src="audio/Kizaru.mp3" loop>
 </audio>
-<script>setTimeout(function(){document.getElementById("video").play();}, 3000);</script>
 <script>setTimeout(function(){document.getElementById("audio").play();}, 3000);</script>
+<script>setTimeout(function(){document.getElementById("video").play();}, 3000);</script>
 </head>
 <header>
 <p class = "name-rap"> <span class="typed"></span></p>
@@ -50,36 +55,36 @@ body, a, a:link{cursor:url(images/cursor/cursor.cur), default;} a:hover {cursor:
 <div class="titles animated rubberBand" style="animation-delay: 5s;">
 <div class="animated zoomIn" style="animation-delay: 4s;">
     <h1 class="center__text glitch is-glitching"><font color="#ff00b0">~</font>
-    <font color="#ac00fc">THE</font><font color="#ff00b0">LUPA</font></h1>
+    <font color="#ac00fc">THE</font><font color="#ff00b0">LUPA🤓</font></h1>
     </div></div>
 <div class="media animated fadeInUpBig" style="animation-delay: 5s;">
 
-<a href="https://vk.com/thelupa1488" id="vk" title="Страница уёбка" target="_blank">
-<i class="fa fa-vk hvr-grow"></i>
+<a href="https://vk.com/thelupa1488" id="vk" target="_blank">
+<i class="fa fa-vk hvr-grow" title="😳"> </i>
 </a>
 <a href="https://t.me/THELUPA1488" target="_blank">
-<i class="fa fa-paper-plane hvr-grow" title="Если хотите, напишите мне;D"></i>
+<i class="fa fa-paper-plane hvr-grow" title="💀"></i>
 </a>
 <a href="https://www.instagram.com/thelupa1488/" target="_blank">
-<i class="fa fa-instagram hvr-grow" title="Даже не заходите туда:P"></i>
+<i class="fa fa-instagram hvr-grow" title="👻"></i>
 </a>
 <a href="https://yummyanime.club/users/id29168" target="_blank">
-<i class="fa fa-wheelchair hvr-grow" title="Мой диагноз-.-"></i>
+<i class="fa fa-wheelchair hvr-grow" title="🤬"></i>
 </a>
 <a href="https://mangalib.me/user/97907" target="_blank">
-<i class="fa fa-frown-o hvr-grow" title="Хочу сдохнуть:_("></i>
+<i class="fa fa-frown-o hvr-grow" title="🤐"></i>
 </a>
 <a href="https://yougame.biz/members/79491/" target="_blank">
-<i class="fa fa-code hvr-grow" title="Параша"></i>
+<i class="fa fa-code hvr-grow" title="🤡"></i>
 </a>
 <a href="https://qiwi.me/thelupa" target="_blank">
-<i class="fa fa-heart hvr-grow" title="Собираем деньги, мне на лечение:>"></i>
+<i class="fa fa-heart hvr-grow" title="🥺"></i>
 </a>
 <a href="https://steamcommunity.com/id/thelupa1488/" target="_blank">
-<i class="fa fa-steam hvr-grow" title="Итс май мэйн"></i>
+<i class="fa fa-steam hvr-grow" title="🤓"></i>
 </a>
 <a href="https://www.twitch.tv/thelupa1488" target="_blank">
-<i class="fa fa-twitch hvr-grow" title="Никогда не буду стримером >:O"></i>
+<i class="fa fa-twitch hvr-grow" title="🥵"></i>
 </a>
 </div>
 </div>
