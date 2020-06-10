@@ -19,7 +19,7 @@
         animIndex++
     }
     window.setInterval(doInverseSpinZeroPitch, 400);*/
-    
+
     $(function() {
         var title = document.title,
             animSeq = 
@@ -53,7 +53,7 @@
           window.setInterval(doInverseSpinZeroPitch, 200);
     /*-------------------------------------------------------------------------------------------------------------------------------------------------- */
     var tKillNames = ["THELUPA"];
-    var ctKillNames = ["NONAME", "NN DOG"];
+    var ctKillNames = ["President", "SexBomba3131", "Bomjik321"];
     var weapons = ["ssg", "deserteagle", "ak47"];
     var $killFeedContainer = $('.kill-feed');
     var $killFeedElement = $('.kill-feed > div').hide();
