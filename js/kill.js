@@ -20,7 +20,8 @@
     }
     window.setInterval(doInverseSpinZeroPitch, 400);*/
 
-    $(function() {
+    $(function() 
+    {
         var title = document.title,
             animSeq = 
             ["< >", "< / >", "< - >", "< _ >", "< $ >", "< T >",
@@ -49,8 +50,7 @@
             }
             document.title = animSeq[animIndex];
             animIndex++
-        }
-          window.setInterval(doInverseSpinZeroPitch, 200);
+        } window.setInterval(doInverseSpinZeroPitch, 200);
     /*-------------------------------------------------------------------------------------------------------------------------------------------------- */
     var tKillNames = ["THELUPA"];
     var ctKillNames = ["President", "SexBomba3131", "Bomjik321"];
