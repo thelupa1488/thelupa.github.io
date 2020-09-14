@@ -12,43 +12,6 @@
     <audio id="audio" src="audio/Instrumental.mp3" loop></audio>
 </head>
 <body>
-    <!-- <div class="videobg">
-        <video autoplay loop muted>
-            <source src="videos/front.mp4" type="video/mp4"></source>
-        </video>
-    </div> -->
-    <script type="text/javascript">
-        $(function() {var title = document.title,
-        animSeq = 
-        ["< >", "< / >", "< - >", "< _ >", "< $ >", "< T >",
-        "< T/ >", "< T- >", "< T_ >", "< T$ >", "< TH >", "< TH/ >", "< TH- >",
-        "< TH_ >", "< TH$ >", "< THE >", "< THE/ >", "< THE- >", "< THE_ >", "< THE$ >",
-        "< THEL >", "< THEL/ >", "< THEL- >", "< THEL_ >", "< THEL$ >", "< THELU >", "< THELU/ >",
-        "< THELU- >", "< THELU_ >", "< THELU$ >", "< THELUP >", "< THELUP/ >", "< THELUP- >", "< THELUP_ >",
-        "< THELUP$ >", "< THELUPA >", "< THELUPA >", "< THELUPA >", "< THELUPA >", "< THELUP$ >", "< THELUP_ >", "< THELUP- >",
-        "< THELUP/ >", "< THELUP >", "< THELU$ >", "< THELU_ >", "< THELU- >", "< THELU/ >", "< THELU >",
-        "< THEL$ >", "< THEL_ >", "< THEL- >", "< THEL/ >", "< THEL >", "< THE$ >", "< THE_ >",
-        "< THE- >", "< THE/ >", "< THE >", "< TH$ >", "< TH_ >", "< TH- >", "< TH/ >",
-        "< TH >", "< T$ >", "< T_ >", "< T- >", "< T/ >", "< T >", "< $ >",
-        "< _ >", "< - >", "< / >"],
-        animIndex = 0,
-        titleIndex = 0;
-    
-    function doInverseSpinZeroPitch() {
-        var loadTitle = title.substring(0, titleIndex);
-        if (titleIndex > title.length) {
-            animIndex = 0;
-            titleIndex = 0
-        }
-        if (animIndex > 72) {
-            titleIndex++;
-            animIndex = 0
-        }
-        document.title = animSeq[animIndex];
-        animIndex++
-    } window.setInterval(doInverseSpinZeroPitch, 200);
-    });
-    </script>
     <div class="intro">
         <div class="video">
             <video class="video__media" src="video/front.mp4" autoplay muted loop></video>
@@ -94,6 +57,37 @@
                setTimeout(function(){document.getElementById("audio").play();}, 500);
            });
        });
+
+       $(function() {var title = document.title,
+        animSeq = 
+        ["< >", "< / >", "< - >", "< _ >", "< $ >", "< T >",
+        "< T/ >", "< T- >", "< T_ >", "< T$ >", "< TH >", "< TH/ >", "< TH- >",
+        "< TH_ >", "< TH$ >", "< THE >", "< THE/ >", "< THE- >", "< THE_ >", "< THE$ >",
+        "< THEL >", "< THEL/ >", "< THEL- >", "< THEL_ >", "< THEL$ >", "< THELU >", "< THELU/ >",
+        "< THELU- >", "< THELU_ >", "< THELU$ >", "< THELUP >", "< THELUP/ >", "< THELUP- >", "< THELUP_ >",
+        "< THELUP$ >", "< THELUPA >", "< THELUPA >", "< THELUPA >", "< THELUPA >", "< THELUP$ >", "< THELUP_ >", "< THELUP- >",
+        "< THELUP/ >", "< THELUP >", "< THELU$ >", "< THELU_ >", "< THELU- >", "< THELU/ >", "< THELU >",
+        "< THEL$ >", "< THEL_ >", "< THEL- >", "< THEL/ >", "< THEL >", "< THE$ >", "< THE_ >",
+        "< THE- >", "< THE/ >", "< THE >", "< TH$ >", "< TH_ >", "< TH- >", "< TH/ >",
+        "< TH >", "< T$ >", "< T_ >", "< T- >", "< T/ >", "< T >", "< $ >",
+        "< _ >", "< - >", "< / >"],
+        animIndex = 0,
+        titleIndex = 0;
+    
+    function doInverseSpinZeroPitch() {
+        var loadTitle = title.substring(0, titleIndex);
+        if (titleIndex > title.length) {
+            animIndex = 0;
+            titleIndex = 0
+        }
+        if (animIndex > 72) {
+            titleIndex++;
+            animIndex = 0
+        }
+        document.title = animSeq[animIndex];
+        animIndex++
+    } window.setInterval(doInverseSpinZeroPitch, 200);
+    });
     </script>
 </body>
 </html>
