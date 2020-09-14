@@ -1,94 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title> THELUPA </title>
-<link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
-<link href="css/preloader.css" rel="stylesheet">
-<link href="css/highstl.css" rel="stylesheet">
-<link href="css/animate.css" rel="stylesheet">
-<link href="css/Shacke.css" rel="stylesheet">
-<link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
-<script src="js/jquery.js"></script>
-<script src="js/plugins.min.js"></script>
-<script src="js/main.js"></script>
-<script src="js/kill.js"></script>
-<script src="js/audio.js"></script>
-<script type="text/javascript" src="https://raw.githubusercontent.com/flouthoc/blinkTitle.js/master/index.js"></script>
-<style>
-@font-face{font-family:Pompadur;src:url(fonts/font.eot);src:local(pompadur),url(fonts/font.ttf);}h1{font-family:Pompadur,'Comic Sans MS',cursive;}
-@font-face{font-family:Pompadur;src:url(fonts/hack.eot);src:local(pompadur),url(fonts/hack.ttf);}Hack{font-family:Pompadur,'Comic Sans MS',cursive;}
-@font-face{font-family:Bazy;src:url(fonts/bazy.eot);src:local(bazy),url(fonts/bazy.ttf);}
-body, a, a:link{cursor:url(images/cursor/cursor.cur), default;} a:hover {cursor:url(images/cursor/cursor2.cur),pointer;}
-</style>
-<div id="loader-wrapper"><div id="loader"></div>
-<div class="loader-section section-left"></div>
-<div class="loader-section section-right"></div> 
-</div>
-<video id="video" muted="true" loop>
-  <source src="videos/Kizaru.mp4" type="video/mp4"></source>
-</video>
-<audio id="audio" src="audio/Kizaru.mp3" loop>
-</audio>
-<script>setTimeout(function(){document.getElementById("audio").play();}, 3000);</script>
-<script>setTimeout(function(){document.getElementById("video").play();}, 3000);</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>THELUPA</title>
+    <link rel="shortcut icon" href="Image/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="https://kit.fontawesome.com/895ecf5f74.js"></script>
+    <audio id="audio" src="audio/Instrumental.mp3" loop></audio>
 </head>
-<header>
-<p class = "name-rap"> <span class="typed"></span></p>
-<p class = "name-rap"> <span class="typed1"></span></p>
-</header>
-<body onmousedown="return false" onselectstart="return false">
-<style>body{overflow:hidden}</style>
-<script>disableWheelScroll();</script>
-<div id="star" class="video mask overlay">
-<div class="video-fallback"></div>
-<canvas class="cover"></canvas>
-</div>
-<div class="kill-feed"><div><span class="player t"></span><span class="weapons"><img height="20"/><img width="30" height="26" src="images/headshot.png"/></span><span class="player ct"></span></div></div>
-<div class="pageoverlay">
-<div class="lightbox">
-<div class="awrapper">
-<div class="titles animated rubberBand" style="animation-delay: 5s;">
-<div class="animated zoomIn" style="animation-delay: 4s;">
-    <h1 class="center__text glitch is-glitching"><font color="#ff00b0">~</font>
-    <font color="#ac00fc">THE</font><font color="#ff00b0">LUPA🤓</font></h1>
-    </div></div>
-<div class="media animated fadeInUpBig" style="animation-delay: 5s;">
+<body>
+    <!-- <div class="videobg">
+        <video autoplay loop muted>
+            <source src="videos/front.mp4" type="video/mp4"></source>
+        </video>
+    </div> -->
+    <script type="text/javascript">
+        $(function() {var title = document.title,
+        animSeq = 
+        ["< >", "< / >", "< - >", "< _ >", "< $ >", "< T >",
+        "< T/ >", "< T- >", "< T_ >", "< T$ >", "< TH >", "< TH/ >", "< TH- >",
+        "< TH_ >", "< TH$ >", "< THE >", "< THE/ >", "< THE- >", "< THE_ >", "< THE$ >",
+        "< THEL >", "< THEL/ >", "< THEL- >", "< THEL_ >", "< THEL$ >", "< THELU >", "< THELU/ >",
+        "< THELU- >", "< THELU_ >", "< THELU$ >", "< THELUP >", "< THELUP/ >", "< THELUP- >", "< THELUP_ >",
+        "< THELUP$ >", "< THELUPA >", "< THELUPA >", "< THELUPA >", "< THELUPA >", "< THELUP$ >", "< THELUP_ >", "< THELUP- >",
+        "< THELUP/ >", "< THELUP >", "< THELU$ >", "< THELU_ >", "< THELU- >", "< THELU/ >", "< THELU >",
+        "< THEL$ >", "< THEL_ >", "< THEL- >", "< THEL/ >", "< THEL >", "< THE$ >", "< THE_ >",
+        "< THE- >", "< THE/ >", "< THE >", "< TH$ >", "< TH_ >", "< TH- >", "< TH/ >",
+        "< TH >", "< T$ >", "< T_ >", "< T- >", "< T/ >", "< T >", "< $ >",
+        "< _ >", "< - >", "< / >"],
+        animIndex = 0,
+        titleIndex = 0;
+    
+    function doInverseSpinZeroPitch() {
+        var loadTitle = title.substring(0, titleIndex);
+        if (titleIndex > title.length) {
+            animIndex = 0;
+            titleIndex = 0
+        }
+        if (animIndex > 72) {
+            titleIndex++;
+            animIndex = 0
+        }
+        document.title = animSeq[animIndex];
+        animIndex++
+    } window.setInterval(doInverseSpinZeroPitch, 200);
+    });
+    </script>
+    <div class="intro">
+        <div class="video">
+            <video class="video__media" src="video/front.mp4" autoplay muted loop></video>
+        </div>
+    </div>
+    <div class="wrapper">
+        <h1>THELUPA</h1>
+        <div class="link-social">
+            <a href="https://vk.com/thelupa1488" target="_blank"><i class="fa fa-vk hvr-grow"></i></a>
+            <a href="https://t.me/THELUPA1488" target="_blank"><i class="fa fa-paper-plane hvr-grow"></i></a>
+            <a href="https://www.instagram.com/thelupa1488/" target="_blank"><i class="fa fa-instagram hvr-grow"></i></a>
+            <a href="https://yummyanime.club/users/id29168" target="_blank"><i class="fa fa-wheelchair hvr-grow"></i></a>
+            <a href="https://mangalib.me/user/97907" target="_blank"><i class="fa fa-frown-o hvr-grow"></i></a>
+            <a href="https://yougame.biz/members/79491/" target="_blank"><i class="fa fa-code hvr-grow"></i></a>
+            <a href="https://qiwi.me/thelupa" target="_blank"><i class="fa fa-heart hvr-grow"></i></a>
+            <a href="https://steamcommunity.com/profiles/76561198303102341/" target="_blank"><i class="fa fa-steam hvr-grow"></i></a>
+            <a href="https://www.twitch.tv/thelupa1488" target="_blank"><i class="fa fa-twitch hvr-grow"></i></a>
+        </div>
+    </div>
+    <div class="welcome-section content-hidden">
+        <div class="content-wrap">
+            <ul class="fly-in-text">
+                <li>P</li>
+                <li>E</li>
+                <li>N</li>
+                <li>I</li>
+                <li>S</li>
+            </ul>
+            <a href="#" class="enter-button">ENTER</a>
+        </div>
+    </div>
+    <script type="text/javascript">
+       $(function() {
+           var welcomeSection = $('.welcome-section'),
+           enterButton = welcomeSection.find('.enter-button');
+           setTimeout(function() {
+               welcomeSection.removeClass('content-hidden');
+           }, 800);
 
-<a href="https://vk.com/thelupa1488" id="vk" target="_blank">
-<i class="fa fa-vk hvr-grow" title="😳"> </i>
-</a>
-<a href="https://t.me/THELUPA1488" target="_blank">
-<i class="fa fa-paper-plane hvr-grow" title="💀"></i>
-</a>
-<a href="https://www.instagram.com/thelupa1488/" target="_blank">
-<i class="fa fa-instagram hvr-grow" title="👻"></i>
-</a>
-<a href="https://yummyanime.club/users/id29168" target="_blank">
-<i class="fa fa-wheelchair hvr-grow" title="🤬"></i>
-</a>
-<a href="https://mangalib.me/user/97907" target="_blank">
-<i class="fa fa-frown-o hvr-grow" title="🤐"></i>
-</a>
-<a href="https://yougame.biz/members/79491/" target="_blank">
-<i class="fa fa-code hvr-grow" title="🤡"></i>
-</a>
-<a href="https://qiwi.me/thelupa" target="_blank">
-<i class="fa fa-heart hvr-grow" title="🥺"></i>
-</a>
-<a href="https://steamcommunity.com/profiles/76561198303102341/" target="_blank">
-<i class="fa fa-steam hvr-grow" title="🤓"></i>
-</a>
-<a href="https://www.twitch.tv/thelupa1488" target="_blank">
-<i class="fa fa-twitch hvr-grow" title="🥵"></i>
-</a>
-</div>
-</div>
-<div class="animated zoomIn" style="animation-delay: 6s;">
-<div class="button shake-slow shake-constant"><a href="http://pnrtscr.com/kqrkc7" target="_blank"><Hack>{ XXX }</Hack></a></div></div>
-</div></div>
-<div class="pagebottom">
-</div>
-<script>$(document).ready(function() {setTimeout(function(){$('body').addClass('loaded');$('h1').css('color','#222222');}, 2500);});</script>
+           enterButton.on('click', function(e) {
+               e.preventDefault();
+               welcomeSection.addClass('content-hidden').fadeOut();
+               setTimeout(function(){document.getElementById("audio").play();}, 500);
+               setTimeout(function(){document.getElementById("video").play();}, 500);
+           });
+       });
+    </script>
 </body>
 </html>
